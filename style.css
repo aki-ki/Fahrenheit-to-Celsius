@@ -1,0 +1,25 @@
+body {
+  width: 800px;
+  background-color: white;
+  margin: auto;
+  padding: 25px;
+  border-radius: 15px;
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: 300;
+}
+html {
+  background-color: rgb(140, 140, 182);
+}
+#trap {
+  text-align: center;
+  width: 500px;
+}
+#imagep {
+  text-align: center;
+}
+button {
+  font-family: "Sour Gummy", sans-serif;
+}
+select {
+  font-family: "Sour Gummy", sans-serif;
+}

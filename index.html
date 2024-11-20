@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Itim&family=Roboto+Slab:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Trapezoid Area Calculator</title>
+  </head>
+  <body>
+    <h1>Area of a Trapezoid Calculator</h1>
+    <p id="imagep">
+      <img
+        id="trap"
+        src="images/area of a trapezoid.png"
+        alt="trapezoid picture and formula"
+      />
+    </p>
+    <h2>Calculation</h2>
+    <h3>Select your unit of measurement</h3>
+    <label for="Measurements">
+      <select name="measurement" id="unit-of-measurement">
+        <option value="m">m</option>
+        <option value="mm">mm</option>
+        <option value="cm">cm</option>
+        <option value="in">in</option>
+        <option value="yd">yd</option>
+        <option value="ft">ft</option>
+      </select>
+    </label>
+    <h3>Input your lengths</h3>
+    <p>Length of top base (a) <input id="length-bottom" type="number" /></p>
+    <p>Length of bottom base (b)<input id="length-top" type="number" /></p>
+    <p>Height of trapezoid (h)<input id="height" type="number" /></p>
+    <button id="button">Calculate!</button>
+    <h2>Output</h2>
+    <p>
+      The area of the trapezoid is <span id="finaloutput"> ------</span>
+      <span id="checkmark"></span>
+    </p>
+  </body>
+</html>
